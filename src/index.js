@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// styles
+import "assets/css/paper-kit.css";
+import "assets/css/paper-kit.min.css";
+import "assets/css/paper-kit.css.map";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+
 
 ReactDOM.render(
   <React.StrictMode>

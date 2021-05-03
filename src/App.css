@@ -3,7 +3,8 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 8vmin;
+  align-items: center;
   pointer-events: none;
 }
 
@@ -13,15 +14,38 @@
   }
 }
 
+.container-content {
+  background-color: #282c34;
+  display: contents;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-text {
+  font-size: 35px;
+  color: #f9f9f9;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.app-content-text {
+  font-size: 35px;
+  background-color: #282c34;
+  color: #f9f9f9;
+  font-family: "Times New Roman", Times, serif;
+}
+
 .App-header {
+  margin-top: 1.5px;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  column-gap: 40px;
 }
 
 .App-link {
