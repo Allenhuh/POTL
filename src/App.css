@@ -18,8 +18,12 @@
   background-color: #282c34;
   display: contents;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  column-gap: 50px;
 }
 
 .app-text {
@@ -28,11 +32,19 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+.title {
+  display: contents;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .app-content-text {
   font-size: 35px;
-  background-color: #282c34;
   color: #f9f9f9;
   font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: baseline;
 }
 
 .App-header {
@@ -40,12 +52,12 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  column-gap: 40px;
+  column-gap: 1px;
 }
 
 .App-link {

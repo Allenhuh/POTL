@@ -10,9 +10,13 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <header className="App-header">
-      <text className="app-content-text"> Have you seen them ? </text>
-      <div className="container-content">
+      <div className="App-header">
+        <ul></ul>
+        <ul></ul>
+          <text className="app-content-text"> Have you seen them ? </text>
+        <ul></ul>
+        <ul></ul>
+      <header className="container-content">
       <Card style={{width: '13.5rem', height:'20rem'}}>
           <CardImg top maxHeight='1vh' object-fit='contain' src={whiteDog} alt="whiteDog"/>
             <CardBody>
@@ -37,8 +41,8 @@ function App() {
                 <Button color="danger">View Pet</Button>
               </CardBody>
           </Card>
-      </div>
       </header>
+      </div>
     </div>
   );
 }

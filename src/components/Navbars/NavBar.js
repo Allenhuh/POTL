@@ -31,12 +31,15 @@ function NavBar() {
 <ul class="nav justify-content-center">
   <li class="nav-item">
     <a class="nav-link" >Lost Pets</a>
+    <a class="nav-link" >|</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" >Blog</a>
+    <a class="nav-link" >|</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" >Poster Builder</a>
+    <a class="nav-link" >|</a>
   </li>
   <li class="nav-item">
     <a class="nav-link">Donation</a>
