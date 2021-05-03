@@ -5,7 +5,8 @@ phases:
     commands:
       #installs dependencies into the node_modules/ directory
       - npm install
-
+      - npm install --save reactstrap react react-dom
+      - npm install --save-dev sass
   build:
     commands:
       - echo Build started on `date`
