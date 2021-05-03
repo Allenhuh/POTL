@@ -25,7 +25,7 @@ function App() {
             <CardImg top src={whiteCat} alt="whiteCat"/>
               <CardBody>
                 <CardTitle>Icy</CardTitle>
-                <CardText>Last seen at Yishun Blk 250</CardText>
+                <CardText>Last seen at Yishun Blk 252</CardText>
                 <Button color="danger">View Pet</Button>
               </CardBody>
           </Card>
