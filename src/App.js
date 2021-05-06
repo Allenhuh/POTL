@@ -13,7 +13,7 @@ function App() {
       <div className="App-header">
         <ul></ul>
         <ul></ul>
-          <text className="app-content-text"> Have you seen them 6 May ? </text>
+          <text className="app-content-text"> Have you seen them ? </text>
         <ul></ul>
         <ul></ul>
       <header className="container-content">
